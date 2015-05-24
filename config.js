@@ -12,13 +12,13 @@ config = {
     production: {
         url: 'http://psyfisoft.com',
         mail: {
-            transport: 'sendgrid',
+            transport: 'SMTP',
 	    options: {
-            host: 'smtp.sendgrid.net',
-           	service: 'Sendgrid',
+            host: 'smtp.mailgun.org',
+           	service: 'mailgun',
 	        auth: {
-         	    user: 'jroa',
-	            pass: 'Dexter145#'
+         	    user: 'postmaster@sandbox4f4be44d81524163a8772f182b0e9fae.mailgun.org',
+	            pass: 'cd9b1d7624c2d076e6805e62afc38659'
         	}
     	    }
 },
