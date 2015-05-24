@@ -17,8 +17,8 @@ config = {
             host: 'smtp.mailgun.org',
            	service: 'mailgun',
 	        auth: {
-         	    user: 'postmaster@sandbox4f4be44d81524163a8772f182b0e9fae.mailgun.org',
-	            pass: 'cd9b1d7624c2d076e6805e62afc38659'
+         	    user: 'postmaster@psyfisoft.com',
+	            pass: '976c521836a5602e107244bd833c8b04'
         	}
     	    }
 },
