@@ -14,13 +14,11 @@ config = {
         mail: {
             transport: 'SMTP',
 	    options: {
-            host: 'smtp.mailgun.org',
-           	service: 'mailgun',
 	        auth: {
          	    user: 'postmaster@psyfisoft.com',
 	            pass: '976c521836a5602e107244bd833c8b04'
         	}
-    	    }
+        }
 },
         database: {
             client: 'sqlite3',
