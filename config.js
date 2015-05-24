@@ -14,6 +14,9 @@ config = {
         mail: {
             transport: 'SMTP',
 	    options: {
+                host: 'smtp.mailgun.org'
+                port: 2525
+                service: 'Mailgun',
 	        auth: {
          	    user: 'postmaster@psyfisoft.com',
 	            pass: '976c521836a5602e107244bd833c8b04'
